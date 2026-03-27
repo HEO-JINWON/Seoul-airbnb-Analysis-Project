@@ -1,9 +1,9 @@
 # Seoul-airbnb-Analysis-Project
-서울 Airbnb Opportunity Map: 입지·상품·운영 레버 기반 RevPAR극대화 가이드
+## 서울 Airbnb Opportunity Map: 입지·상품·운영 레버 기반 RevPAR극대화 가이드
 
 프로젝트 요약: 서울 Airbnb 인프라 및 성과 지표 분석과 교통-관광지-유동-경쟁도를 결합해 유망 입지와 운영 전략을 도출
 
-목표
+## 목표
 1. 교통 접근성.유동(지하철).장소 프리미엄(120장소).경쟁도.숙소 스펙을 결합한 Opporyunity Score 상위 지역을 지도 기반 대시보드로 시각화하고 TOP 후보지를 추천한다.
 2. 최근 90일 기준으로 계산한 RevPAR로 예측/설명 모델을 구축해 Spatial CV 기반 MAE/RMSE/R²로 정량 검증한다.
 3. 입지 유형별 추천 숙소 타입과 운영 레버(즉시예약/최소박수/신뢰지표)의 기대효과를 플레이북/시뮬레이션 형태로 제시한다.
