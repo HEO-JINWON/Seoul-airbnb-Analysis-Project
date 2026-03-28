@@ -508,5 +508,20 @@ regressor__n_estimators: 500
 - 능동 실제 숙소 하루 평균 수익 모델 예측 결과: 72,005원 \
 참고) 현재 능동 숙소평균수익(중앙값): 81,514원
 
+---
+## 에어비앤비 태블로 대시보드
+https://public.tableau.com/views/_17732411791710/sheet1?:language=ko-KR&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
+---
+## 참조
+https://news.airbnb.com/ko/seventeenexperiences/
+https://biz.chosun.com/distribution/channel/2025/06/04/KDWBEY2PX5CUFPGAZO67JPFXZA/
+https://www.wehome.me/trust/ko/report-urbanstay-202506/
+https://www.news1.kr/industry/hotel-tourism/5898892
 
+---
+## 수집 데이터 출처
+https://data.seoul.go.kr/
+https://www.data.go.kr/
+https://datalab.visitkorea.or.kr/datalab/portal/main/getMainForm.do
+https://www.localdata.go.kr/devcenter/dataDown.do?menuNo=20001
