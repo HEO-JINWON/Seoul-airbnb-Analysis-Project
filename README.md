@@ -516,12 +516,12 @@ https://public.tableau.com/views/_17732411791710/sheet1?:language=ko-KR&:sid=&:r
 ## 참조
 https://news.airbnb.com/ko/seventeenexperiences/
 https://biz.chosun.com/distribution/channel/2025/06/04/KDWBEY2PX5CUFPGAZO67JPFXZA/ \
-https://www.wehome.me/trust/ko/report-urbanstay-202506/
+https://www.wehome.me/trust/ko/report-urbanstay-202506/ \
 https://www.news1.kr/industry/hotel-tourism/5898892
 
 ---
 ## 수집 데이터 출처
-https://data.seoul.go.kr/
-https://www.data.go.kr/
-https://datalab.visitkorea.or.kr/datalab/portal/main/getMainForm.do
+https://data.seoul.go.kr/ \
+https://www.data.go.kr/ \
+https://datalab.visitkorea.or.kr/datalab/portal/main/getMainForm.do \
 https://www.localdata.go.kr/devcenter/dataDown.do?menuNo=20001
