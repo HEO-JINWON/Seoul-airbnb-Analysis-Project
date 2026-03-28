@@ -440,10 +440,31 @@ regressor__n_estimators: 500
 입지 선정 후 숙소의 규모를 결정하는 최대허용 게스트와 방 타입은 숙소 시작전 전략적으로 결정할 수 있으며 이에 따라 가격 예측이 달라짐. \
 해당 모델은 '입지 위에서, 호스트가 통제할 수 있는 변수(운영)'에 따라 가격 예측에 영향이 크다는 것을 확인함.
 
+- 둔촌2동 숙소 수익 예측 예시 
+[숙소 피처] 
+- baths_w: 1.00
+- bedrooms_w: 2.00
+- beds_w: 2.00
+- guests: 6
+- min_nights_w: 1.00
+- cleaning_fee_w: 29,043.00
+- extra_guest_fee_w: 0.00
+- photos_count_w: 110.00
+- X좌표(WGS84): 127.14
+- Y좌표(WGS84): 37.53
+\
+- tour_attraction_score: 0.23
+- stay_competition_score: 0.79
+- airbnb_score: 0.62
+- subway_people_score: 0.54
+- transfer_station_comb_score: 0.33
+- district: 강동구
+- room_type: entire_home
+- instant_book: True
 
-
-
-
+- 실제 숙소 하루 평균 수익: 66,529원
+- 모델 예측: 55,547원
+- 오차: 10,981원
 
 
 
