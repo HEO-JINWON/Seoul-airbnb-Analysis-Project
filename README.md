@@ -452,6 +452,7 @@ regressor__n_estimators: 500
 - photos_count_w: 110.00
 - X좌표(WGS84): 127.14
 - Y좌표(WGS84): 37.53
+
 \
 - tour_attraction_score: 0.23
 - stay_competition_score: 0.79
@@ -462,6 +463,7 @@ regressor__n_estimators: 500
 - room_type: entire_home
 - instant_book: True
 
+\
 - 실제 숙소 하루 평균 수익: 66,529원
 - 모델 예측: 55,547원
 - 오차: 10,981원
