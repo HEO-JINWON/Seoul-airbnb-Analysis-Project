@@ -411,11 +411,32 @@ LinearRegression: MAE - 28048.78, R2 - 0.26 \
 RandomForestRegressor: MAE - 24385.84, R2 - 0.46 \
 XGBoost: MAE - 24071.00, R2 - 0.46
 
-MAE가 가장 작고 R2가 가장 높은 **RandomForestRegressor** 선정 
+- MAE가 가장 작고 R2가 가장 높은 **RandomForestRegressor** 선정 
 
+[선택 모델 Fine-Tuning 및 성능 확인] \
+GridSearchCV: 하이퍼파라미터간 모든 조합 검증, k-fold 교차검증 동시 진행(k=5)
 
+[최적 파라미터] \
+regressor__max_depth: None \
+regressor__max_features: sqrt \
+regressor__min_samples_leaf: 2 \
+regressor__n_estimators: 500
 
+테스트 데이터 최종 MAE: 23,936 \
+테스트 데이터 최종 R2: 0.4607
 
+기존 대비 MAE값 135원 감소
+
+[변수 중요도 확인] \
+- **"입지 선정의 중요성"**
+모델은 단순 구 이름(district)보다 교통 및 인구 지표를 수익 예측의 더 중요한 단서로 포착함. 이는 자치구보다 '실질적 인프라'에 더 큰 영향을 받는 것을 입증함.
+
+- **"운영 지표와 입지 지표의 시너지"**
+"숙소 자체 지표(사진수, 최대 허용인원)가 1, 2위를 차지하고 그 뒤를 정밀 입지(좌표) - 숙소 운영 변수 - 인프라(파생변수)가 받쳐주고 있음."
+
+- **결과**
+입지 선정 후 숙소의 규모를 결정하는 최대허용 게스트와 방 타입은 숙소 시작전 전략적으로 결정할 수 있으며 이에 따라 가격 예측이 달라짐. \
+해당 모델은 '입지 위에서, 호스트가 통제할 수 있는 변수(운영)'에 따라 가격 예측에 영향이 크다는 것을 확인함.
 
 
 
