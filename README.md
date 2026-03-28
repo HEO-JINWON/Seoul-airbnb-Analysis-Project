@@ -388,7 +388,7 @@ MAE: 평균 절대 오차 → 예측이 평균적으로 실제 값과 얼마나 
 R2: 결정계수 → 모델이 데이터를 잘 설명하는 정도
 
 [평가 결과]
-LinearRegression: MAE - 28048.78, R2 - 0.26 \ 
+LinearRegression: MAE - 28048.78, R2 - 0.26 \
 RandomForestRegressor: MAE - 24385.84, R2 - 0.46 \
 XGBoost: MAE - 24071.00, R2 - 0.46
 
