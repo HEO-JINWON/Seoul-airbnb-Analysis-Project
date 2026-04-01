@@ -528,6 +528,10 @@ https://www.news1.kr/industry/hotel-tourism/5898892
 
 ---
 ## 수집 데이터 출처
+### 에어비앤비
+https://developer.withairbnb.com/
+
+### 공공데이터
 https://data.seoul.go.kr/ \
 https://www.data.go.kr/ \
 https://datalab.visitkorea.or.kr/datalab/portal/main/getMainForm.do \
